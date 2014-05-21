@@ -19,6 +19,7 @@
 		3C278B61192C370A000DAC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C278B49192C370A000DAC2F /* UIKit.framework */; };
 		3C278B69192C370A000DAC2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C278B67192C370A000DAC2F /* InfoPlist.strings */; };
 		3C278B6B192C370A000DAC2F /* Git_ReferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C278B6A192C370A000DAC2F /* Git_ReferenceTests.m */; };
+		3C278B76192C37DC000DAC2F /* GRScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C278B75192C37DC000DAC2F /* GRScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3C278B66192C370A000DAC2F /* Git ReferenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git ReferenceTests-Info.plist"; sourceTree = "<group>"; };
 		3C278B68192C370A000DAC2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C278B6A192C370A000DAC2F /* Git_ReferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_ReferenceTests.m; sourceTree = "<group>"; };
+		3C278B74192C37DC000DAC2F /* GRScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRScrollViewController.h; sourceTree = "<group>"; };
+		3C278B75192C37DC000DAC2F /* GRScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3C278B54192C370A000DAC2F /* GRAppDelegate.h */,
 				3C278B55192C370A000DAC2F /* GRAppDelegate.m */,
+				3C278B74192C37DC000DAC2F /* GRScrollViewController.h */,
+				3C278B75192C37DC000DAC2F /* GRScrollViewController.m */,
 				3C278B57192C370A000DAC2F /* Images.xcassets */,
 				3C278B4C192C370A000DAC2F /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C278B52192C370A000DAC2F /* main.m in Sources */,
+				3C278B76192C37DC000DAC2F /* GRScrollViewController.m in Sources */,
 				3C278B56192C370A000DAC2F /* GRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
